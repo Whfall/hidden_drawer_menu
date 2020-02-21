@@ -54,7 +54,7 @@ class SimpleHiddenDrawer extends StatefulWidget {
     this.enableScaleAnimin = true,
     this.enableCornerAnimin = true,
     this.typeOpen = TypeOpen.FROM_LEFT,
-    @required this.disableCurrentScreenOnMenuOpened,
+    this.disableCurrentScreenOnMenuOpened = true,
   })  : assert(screenSelectedBuilder != null),
         assert(menu != null),
         assert(disableCurrentScreenOnMenuOpened != null),
